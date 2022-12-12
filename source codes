@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+   int number,houndred,ten,one;
+   cout<<"Enter the number : ";
+   cin>>number;
+   houndred=number/100;
+   number=number-(houndred*100);
+   ten=number/10;
+   number=number-(ten*10);
+   one=number;
+   
