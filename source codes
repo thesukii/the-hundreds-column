@@ -11,4 +11,10 @@ int main()
    ten=number/10;
    number=number-(ten*10);
    one=number;
+     cout<<"the hundreds column : "<<houndred<<endl;
+   cout<<"the tens column : "<<ten<<endl;
+   cout<<"the ones column : "<<one;
+}
+
+ 
    
